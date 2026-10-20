@@ -1,0 +1,8 @@
+{
+  "name":"sentinelscan-ui",
+  "version":"2.0.0",
+  "private":true,
+  "description":"Offline-ready React dashboard built with TypeScript, without a runtime npm server",
+  "scripts":{"build":"tsc --target es2019 --lib dom,es2019 --jsx react --skipLibCheck --outFile dist/app.js src/app.tsx && node copy-styles.js"},
+  "devDependencies":{"typescript":"^5.8.0"}
+}
